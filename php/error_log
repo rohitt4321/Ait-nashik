@@ -1,0 +1,47 @@
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 235
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 235
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 236
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 236
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 237
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 237
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 238
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 238
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 239
+[04-Nov-2022 20:23:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 239
+[04-Nov-2022 20:23:16 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/aitnawp2/public_html/php/process.php:247
+Stack trace:
+#0 /home1/aitnawp2/public_html/php/process.php(247): fopen('', 'r')
+#1 {main}
+  thrown in /home1/aitnawp2/public_html/php/process.php on line 247
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 235
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 235
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 236
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 236
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 237
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 237
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 238
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 238
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 239
+[24-Apr-2023 10:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 239
+[24-Apr-2023 10:16:59 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/aitnawp2/public_html/php/process.php:247
+Stack trace:
+#0 /home1/aitnawp2/public_html/php/process.php(247): fopen('', 'r')
+#1 {main}
+  thrown in /home1/aitnawp2/public_html/php/process.php on line 247
+[25-May-2023 05:03:40 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 235
+[25-May-2023 05:03:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 235
+[25-May-2023 05:03:40 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 236
+[25-May-2023 05:03:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 236
+[25-May-2023 05:03:40 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 237
+[25-May-2023 05:03:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 237
+[25-May-2023 05:03:40 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 238
+[25-May-2023 05:03:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 238
+[25-May-2023 05:03:40 UTC] PHP Warning:  Undefined array key "project" in /home1/aitnawp2/public_html/php/process.php on line 239
+[25-May-2023 05:03:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/aitnawp2/public_html/php/process.php on line 239
+[25-May-2023 05:03:40 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home1/aitnawp2/public_html/php/process.php:247
+Stack trace:
+#0 /home1/aitnawp2/public_html/php/process.php(247): fopen('', 'r')
+#1 {main}
+  thrown in /home1/aitnawp2/public_html/php/process.php on line 247
+[14-Aug-2023 15:19:18 UTC] PHP Warning:  Undefined array key "captcha_text" in /home1/aitnawp2/public_html/php/process.php on line 15
+[10-Sep-2023 08:57:27 UTC] PHP Warning:  Undefined array key "captcha_text" in /home1/aitnawp2/public_html/php/process.php on line 15

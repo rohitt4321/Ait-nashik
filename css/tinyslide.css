@@ -1,0 +1,31 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+.tinyslide { width: 100%;position: relative; overflow: hidden;}
+.tinyslide p{font-size:16px}
+.tinyslide img{height:81vh }
+.tinyslide .navigator { position: absolute; bottom:5%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+.tinyslide .navigator ul { padding: 0; }
+.tinyslide .navigator ul li { float: left; list-style-type: none; margin:0 3px; width:20px; height:3px; background:#eee;  -webkit-transition: all 500ms linear; transition: all 500ms linear; cursor:pointer}
+.tinyslide .navigator ul li span { display: none;}
+.tinyslide .navigator ul li.active { border:solid #fff 1px;background:transparent}
+.tinyslide aside {width: 100%; -webkit-transition:transform 800ms cubic-bezier(0.365, 0.84, 0.44, 1); transition: transform 800ms cubic-bezier(0.365, 0.84, 0.44, 1); -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.tinyslide figure {float: left; position: relative; z-index: 1; }
+.tinyslide figure img {width: 100%; -o-object-fit: cover; object-fit: cover; }
+.tinyslide figure figcaption { position: absolute; color:#fff; bottom:10%; left: 2em; z-index: 1; opacity: 0; }
+.tinyslide .first-slide img{position: relative}
+.tinyslide .first-slide div{position:absolute;top:40%;left:50%;transform:translateX(-50%)}
+.tinyslide .first-slide div h6{font-size:72px;color:#fff;font-weight:bold}
+.tinyslide .first-slide div h6 span{font-size:16px;vertical-align: middle;color:#fff}
+.tinyslide figure.active figcaption { -webkit-animation-name: fadeInRight; animation-name: fadeInRight; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-duration: 2s; animation-duration: 2s; }
+
+@-webkit-keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translateX(-400px); transform: translateX(-400px); }
+  100% { opacity: 1; -webkit-transform: translateX(0);-moz-transform: translateX(0); transform: translateX(7%); } }
+@keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translateX(-400px); transform: translateX(-400px); }
+  100% { opacity: 1; -webkit-transform: translateX(0);-moz-transform: translateX(0); transform: translateX(7%); } }
+
+
+@media only screen and (max-width:767px)
+{
+    .tinyslide img{height:67vh }
+    .tinyslide .first-slide div{position:absolute;top:36%;left:55%;transform:translateX(-50%)}
+
+}

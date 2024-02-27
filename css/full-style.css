@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+*{margin:0px;padding:0px;border:0px;text-decoration:none;scroll-behavior:smooth;list-style:none;font-family: 'Source Sans Pro', sans-serif;}div{display:block}p{margin:0px}
+
+ul{margin-bottom:0px}.container-fluid{padding:0px;font-size:16px}
+h2{padding-top:30px; text-align:center;color:#333;font-size:42px;padding-bottom:30px}
+h2 span{color:#f03;}
+h3{font-size:42px;}
+h6{font-size:22px;color:#fff;text-align: center;}
+h5{font-size:24px;text-align: center;padding:15px 0px;border-top:solid 1px #f4f4f4}
+.mb-30px{margin-bottom: 30px;}
+.mt-12{margin-top: 12px !important;}
+a:hover{text-decoration:none !important;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{text-decoration: none}
+.btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary,.btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger,.btn-default:focus, .btn-default.focus, .btn-danger:active, .btn-default{ background:transparent; color:#f4f4f4; border-radius:30px; margin-top:30px; border:solid 2px #f03; transition:0.5s ease-out }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{ background:#06c; color:#fff }
+.btn-danger{ color:#333; }
+
+header{background:#333;line-height:30px}
+header p{float:left;padding:5px 0;color:#f4f4f4}
+header p:last-child{float:right !important}
+header a{color:#f4f4f4}
+header a:hover{text-decoration:none;color:#fff}
+header a:first-child{margin-right:15px}
+h1{background:url(../images/ait-logo.png);height:55px;width:144px;float:left;line-height:0px;margin:10px 0px;overflow: hidden;display:inline-block;text-indent:-500px;position:absolute;top:5px;left:15px;z-index:5001;position: absolute;top:8px;}
+.navbar-bg{background:#fff;position: sticky;top:0px;z-index:501;border-bottom:solid #666 1px;height:90px;overflow: visible}
+.navbar-bg .container{position: relative;overflow: visible}
+.navbar{margin-bottom:0px;position: relative;}
+.navbar-collapse{padding-right:0px !important}
+.nav{float:right;margin-top:25px;}
+.nav li{float:left;margin:0 10px;font-size:16px;}
+.nav > li:last-child{margin-right:0px}
+.nav a{color:#333;transition:0.5s all;cursor:pointer !important}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus,.nav > li > a:hover,.nav > li > a:focus{background:transparent;}
+.nav > li > a{padding:10px 0px;transition:0.2s all;}
+.nav a:hover{text-decoration:none;color:#06c;transition:0.2s all;}
+.navbar-toggle{border-radius:0px;background:#06c;margin:0px}
+.dropdown-menu{border:none;border-left:solid #333 2px;border-radius:0px !important;padding:0px}
+.dropdown-menu li{width:100%;margin:0px}
+.dropdown-menu > li > a{padding:10px}
+.fa-bars{color:#fff}
+/*carousel*/
+/* .carousel-control.left,.carousel-control.right{background-image:none} */
+/* .carousel-control span{display:none} */
+.carousel img{width: 100%;}
+.carousel-caption{left: -450px;text-align: left;width: 30;transition: 500ms ease-out;}
+/* .carousel .item:first-child p{font-size:16px} */
+/* .carousel p:last-child{padding:30px 15px;font-size:18px} */
+.stinfo b{margin-top:15px}
+.stinfo{float:left;display:block;text-align:center;margin-left:30px}
+.info{padding:0px 100px}
+.info b{color:#06c;display:block;clear:both}
+.info p{display:block;padding-left:220px;padding-top:30px;padding-right:50px}
+.info small{font-weight:bold}
+.carousel-control{position:absolute;top:50%;}
+/* .carousel-control i{margin-top: 49%;} */
+/*About*/
+.m30{margin-top:30px}
+.mb30{margin-bottom:30px;font-size:16px;}
+#about,#courses{padding-top:85px;}
+#about .row div{padding-bottom:15px}
+#about .btn-danger{margin-top:0px}
+#about{color:#333;padding: 30px 0;font-size:16px;text-align: justify;position:relative}
+#about h2{padding:0}
+#about p{padding-bottom:15px}
+#about a:hover{transform: translateX(15px)}
+#about .row{overflow: visible}
+.about-quality-section{margin: 100px auto 30px auto;}
+/*inner about*/
+.about-c{margin:70px 0;}
+.about-c p{text-align:center !important}
+#one,#two,#three{border:solid 1px #333;transition:all 0.5s;padding:15px;background:#fff;}
+#one:hover{border-bottom-left-radius:20px;border-top-right-radius:20px;background:#06c;color:#FFF;transition:all 0.5s}
+#two:hover{border-bottom-left-radius:20px;border-top-right-radius:20px;background:#06c;color:#FFF;transition:all 0.5s}
+#three:hover{border-bottom-left-radius:20px;border-top-right-radius:20px;background:#06c;color:#FFF;transition:all 0.5s}
+.about-inner{height:500px;background:url(../images/about-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+.about-inner h2{color:#fff}
+.about-inner h2 span{color:#06c;}
+/*Course*/
+#courses{background:url(../images/courses-bg.jpg) no-repeat center;background-size:cover; width:100%;padding-bottom:85px}
+#courses h2{color:#fff}
+#courses h2 span{color:#06c}
+h4{color:#fff;font-size:36px;text-align:center}
+.m-course{background:url(../images/mechanical.jpg) no-repeat center;background-size:cover;width:100%;padding:10%;margin-bottom:30px;transition:ease 0.5s}
+.c-course{background:url(../images/Civil-course.jpg) no-repeat center;background-size:cover;width:100%;padding:10%;margin-bottom:30px;transition:ease 0.5s}
+.e-course{background:url(../images/Electrical.jpg) no-repeat center;background-size:cover;width:100%;padding:10%;margin-bottom:30px;transition:ease 0.5s}
+.ct-course{background:url(../images/corporate-training-banner.jpg) no-repeat center;background-size:cover;width:100%;padding:10%;margin-bottom:30px;transition:ease 0.5s}
+#courses p{color:#f4f4f4;font-size:16px;transform:translateX(-150px);transition:ease 0.5s;opacity:0;text-align:center;}
+#courses .m-course:hover{background-position:initial;transition:ease 0.5s}
+#courses .m-course:hover p{opacity:1;transform:translateX(0px);transition:ease 0.5s}
+#courses .c-course:hover{background-position: initial;transition:ease 0.5s}
+#courses .c-course:hover p{opacity:1;transform:translateX(0px);transition:ease 0.5s}
+#courses .e-course:hover{background-position:initial;transition:ease 0.5s}
+#courses .e-course:hover p{opacity:1;transform:translateX(0px);transition:ease 0.5s}
+#courses .ct-course:hover{background-position:initial;transition:ease 0.5s}
+#courses .ct-course:hover p{opacity:1;transform:translateX(0px);transition:ease 0.5s}
+/*modules*/
+.modules{padding:30px 0;background:#f4f4f4}
+/*.modules p:first-child{padding:15px;font-size:16px;text-align:right;}
+.modules p:nth-child(2){font-size:18px;}*/
+.modules a{color:#333;}
+.modules .col-sm-6 img{margin-top:30px}
+.modules h3{font-size:24px;text-align:left}
+.modules h3 span{color:#f03}
+.modules ul{text-align:left}
+.modules li{list-style:disc}
+#com-courses{padding-top:70px;}
+#com-courses h2{padding:0px}
+.com-courses p{font-size:18px}
+.com-courses h2{color:#fff;}
+.com-courses h2 span{color:#06c;}
+.com-courses{background:url(../images/electrical-course-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center}
+/* mechanical */
+.bg-shadow{transition:ease 0.5s;box-shadow: 0px 0px 5px #000;}
+.bg-shadow:hover{box-shadow: 0px 0px 15px #000;transition:ease 0.5s}
+.bg-shadow div{background:rgba(0,0,0,0.3);padding:30px}
+.mechanical h2{color:#fff}
+.mechanical{height:500px;background:url(../images/mechanical.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+#mechanical-course h6{color:#333;font-size:18px}
+#mechanical-course .col-sm-3 a:hover h6{color:#fff}
+#mechanical-course .col-sm-3 div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+#mechanical-course .col-sm-6 a:hover h6{color:#fff}
+#mechanical-course .col-sm-6 div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+#mechanical-course .col-sm-12-effect a:hover h6{color:#fff}
+#mechanical-course .col-sm-12-effect div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+.m-first,.m-second,.m-third,.m-forth,.m-2-first,.m-2-second,.m-2-third,.m-2-forth,.m-2-fifth,.m-2-six,.m-2-seven {position: relative;padding-bottom:5px;box-shadow: 0px 1px 3px #000;transition:ease 0.3s;margin-bottom:30px;}
+
+/* mechanical-engineering-placements */
+#mechanical-placements{margin-top:40px;}
+.mechanical-engineering-placements h2{color:#fff}
+.mechanical-engineering-placements{height:500px;background:url(../images/mechanical-engineering-placements-banner.png) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+
+/* civil */
+.civil h2{color:#fff}
+.civil{height:500px;background:url(../images/Civil.jpg) no-repeat center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+
+#civil-course h6{color:#333;font-size:18px}
+#civil-course .col-sm-3 a:hover h6{color:#fff}
+#civil-course .col-sm-3 div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+#civil-course .col-sm-4 a:hover h6{color:#fff}
+#civil-course .col-sm-4 div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+.c-first,.c-second,.c-2-first,.c-2-second,.c-2-third{position: relative;padding-bottom:5px;box-shadow: 0px 1px 3px #000;transition:ease 0.3s;margin-bottom:30px;}
+
+/* civil-engineering-placements */
+#civil-placements{margin-top:40px;}
+.civil-engineering-placements h2{color:#fff}
+.civil-engineering-placements{height:500px;background:url(../images/civil-engineering-placements-banner.png) no-repeat  top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+
+/* electrical */
+.electrical h2{color:#fff}
+.electrical{height:500px;background:url(../images/Electrical.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+#electrical-course h6{color:#333;font-size:18px}
+#electrical-course .col-sm-4 a:hover h6{color:#fff}
+#electrical-course .col-sm-4 div:hover{box-shadow: 0px 2px 10px #000;transition:ease-in 0.3s;background:#06c}
+.e-first,.e-2-first,.e-2-second,.e-2-third{position: relative;padding-bottom:5px;box-shadow: 0px 1px 3px #000;transition:ease 0.3s;margin-bottom:30px;}
+
+/* electrical-engineering-placements */
+#electrical-placements{margin-top:40px;}
+.electrical-engineering-placements h2{color:#fff}
+.electrical-engineering-placements{height:500px;background:url(../images/electrical-engineering-placements-banner.png) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+
+/* why ait */
+.lead{margin-top: 20px;}
+.why-ait-section{margin-bottom: 50px;}
+.why-ait-card{width: 234px;float: left; margin-top: 24px;}
+
+/* corporate */
+.trade-logo p{font-size:14px !important;}
+.modal-content{border-radius:0px} 
+.modal-content .form-control{height:32px;padding:5px}
+.modal-content h6{color:#333}
+.modal-content .btn{margin-bottom:15px !important;}
+.modal-footer{padding-bottom:0px !important}
+.modules ul{position: relative}
+.modules ul li:first-child{list-style:none !important;}
+.lists ul li:first-child{list-style:disc !important;margin-left:0px}
+.corporate h2{color:#fff}
+.corporate h2 span{color:#06c}
+.corporate{height:500px;background:url(../images/corporate-training-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+.ct-first,.ct-second{padding:15px;margin-bottom:30px;background:#f4f4f4}
+/*.ct-first .btn{color:#333;margin-bottom:30px}*/
+.ct-first .btn:hover{color:#fff}
+.ct-first p{margin-bottom:15px}
+/*.ct-second .btn{color:#333;margin-bottom:30px}*/
+.ct-second .btn:hover{color:#fff}
+.ct-second p{margin-bottom:15px}
+/*internship*/
+.internship h2{color:#fff}
+.internship h2 span{color:#06c}
+.internship{height:500px;background:url(../images/internship-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+#internship ul{font-size:16px}
+#internship{margin-top:40px;}
+#internship .modules{padding-bottom:50px;padding-top:0px}
+/*st-projects*/
+.st-project h2{color:#fff}
+.st-project h2 span{color:#06c}
+.st-project{height:500px;background:url(../images/student-project-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+.projects h6{text-transform:capitalize;font-size:16px;color:#fff;line-height:20px}
+.projects h4{padding:15px}
+.projects h4 span{color:#06c}
+#events .thumbnail{min-height:285px}
+.thumbnail{border-radius:0px;transition:0.5s ease-in;background:#333;margin-bottom:30px;}
+.thumbnail span{display:block}
+.thumbnail:hover{background:#06c;transition:0.5s ease-in}
+#fst p{padding:0px 80px}
+/* online-training */
+.online-training{height:500px;background:url(../images/online-training.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+.online-training h2{color:#fff}
+/*career guidance*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{border-top:solid 1px #333;border-left:solid 1px #333;border-right:solid 1px #333; }
+.nav-tabs > li{list-style:none !important; }
+.nav-tabs{border-bottom:none;width: 100%;background: #333;height:62px;padding: 20px 0px;margin-top:30px}
+.nav-tabs a{padding:20px;color:#fff}
+.active{border:none}
+.tab-pane ul li{list-style:disc;padding-bottom:5px;margin-left:15px;}
+.tab-pane img{padding:30px 0px}
+.tab-pane p{margin-bottom:15px;}
+.tab-pane .col-sm-6 h5{text-align: left;border:none}
+.tab-pane form{padding:15px 0px;}
+.tab-pane form h5{border:none}
+.nav-tabs > li > a{border:none;border-radius:0px}
+.nav-tabs > li > a:hover{border:none;background:#06c;color:#fff}
+.career-guidance h2{color:#fff}
+.career-guidance h2 span{color:#06c}
+.career-guidance{height:500px;background:url(../images/career-guidance-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+/*events*/
+.events h2{color:#fff}
+.events h2 span{color:#06c}
+.events{height:500px;background:url(../images/event-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+/*contact*/
+.contact h2{color:#fff}
+.contact h2 span{color:#06c}
+.contact{height:500px;background:url(../images/contact-banner.jpg) no-repeat top center;background-size:cover;width:100%;padding:0px 0px 75px 0px;color:#f4f4f4;text-align: center;font-size:18px}
+.form-control{border-radius:0px}
+textarea,input{border-radius:0px !important;}
+input[type=submit]{background:#333; color:#fff !important;transition:all 0.2s}
+input[type=submit]:hover{background:#06c;color:#fff !important;transition:all 0.2s}
+#contact{margin-top: 40px;}
+#contact .modules{padding-bottom:0px}
+#contact h5{border:none}
+#contact p{margin-bottom:15px}
+#contact h2{padding-top:50px;padding-bottom:0px}
+#contact i{color:#333;padding-bottom:10px;}
+#contact a{margin-bottom:5px;display:block;clear:both;color:#333;}
+#contact a:hover i{color:#06c;}
+#contact .col-xs-6 a{margin-bottom:15px}
+#contact p{font-size:16px !important;}
+
+#contact .contact-items span{margin-bottom:8px;background:#06c;height:20px;width: 20px;display: inline-block;padding:30px;border-radius: 50%;margin-left:-30px;transition:all ease .5s;margin-top: 8px;}
+#contact .contact-items{transition:all ease .5s;border: 0.5px solid #06c; width: 320px; margin: 30px auto;}
+#contact .contact-items:hover span{background:#333;transition:all ease .5s;}
+#contact .contact-items .fas{color:#fff;transition:all ease .5s}
+#contact .contact-items span i{position: relative;top: -10px;left: -9px;}
+/* #contact .contact-items:hover .fas{color:#fff;transition:all ease .5s} */
+/* #contact .phone i{position: absolute;top:40%;left:50%;transform:translateX(-50%)} */
+/* #contact .mail i{position: absolute;top:40%;left:50%;transform:translateX(-50%)} */
+/* #contact .map i{position: absolute;top:40%;left:50%;transform:translateX(-50%)} */
+#map{padding-top:70px}
+#contact form{margin-top: 10px;}
+#contact input{margin: 5px auto;}
+#contact .icon-text{float: right;margin-right: 108px;margin-top: 14px;}
+#contact .mail .icon-text{float: right;margin-right: 74px;margin-top: 14px;}
+#contact .map .icon-text{margin-right: 3px;width: 300px;margin-top: -58px;}
+/*student login*/
+.student-login{background:url(../images/students-login.jpg) no-repeat top center;background-size:cover;width:100%;color:#f4f4f4;text-align: center;}
+.student-login form{background:rgba(0,0,0,0.5);padding:15px;margin:100px 0px;overflow: hidden}
+.student-login li{list-style: disc;text-align: left;margin-bottom:15px}
+.student-login li a{color:#fff;}
+.student-login p{color:#f03;font-size:20px;padding:15px}
+.student-login input[type="checkbox"]{margin:6px;padding:5px;}
+.student-login label{font-weight:normal !important}
+marquee{font-size:20px}
+/* affiliates */
+.affiliate-section{margin: 30px 0;}
+/*footer*/
+#footer a{color:#999;transition: .5s ease;}
+#footer a:hover{color:#fff;}
+#footer i{color:#999;transition: .5s ease;}
+#footer i:hover{color:#fff;}
+address{color:#999;}
+address:hover{color:#fff}
+#footer{padding:30px 0;background:rgb(24, 24, 24);color:#f4f4f4}
+#footer ul li:first-child{font-weight:bold;margin-left:0px}
+#copyright{padding:15px;background:#ddd;font-size:14px}
+.social li{margin:0px 5px;font-size:14px}
+.social li:last-child{display:block;clear:both;margin:30px 0px}
+.social li:last-child:hover{color:#fff}
+.btn-group-justified > .btn, .btn-group-justified > .btn-group {
+    display: table-cell;
+    float: none;
+    width: 50%;
+}
+.modal-title { color:#06c; font-size:24px }
+@media only screen and(min-width:300px) and (max-width:425px){
+    .why-ait-card{width: 50%;}
+}
+@media only screen and (max-width:767px)
+{
+    header{line-height:16px}
+    .navbar-header h1{margin-left:15px}
+    h2{font-size:30px}
+    h3,h4{font-size:24px}
+	.navbar-nav{margin:7px 0px}
+    .nav > li > a{color:#fff}
+    header p{float:none !important;padding:5px 0;text-align: center}
+    header p:last-child{float:none !important}
+    .navbar-toggle{color:#fff;margin-right:15px;margin-top:24px}
+    .navbar-collapse{border-top:1px solid #06c;padding:0px;position: absolute;top:88px;left:0%;z-index: 500;width:100%;background:#fff;}
+    .nav{float:none;text-align: center;margin-top:0px;}
+    .nav li{float:none;margin:0px;font-size:16px;}
+    .nav > li > a{padding:7px 0px;color:#333}
+    .navbar-bg .container{padding:0px}
+    .nav a:hover{border-bottom:none}
+    #courses{padding-bottom:0px}
+    #about{text-align: center;padding-bottom:0px;}
+    #contact{text-align:center}
+    #contact h3{text-align:center}
+	#contact .col-sm-4{margin-top:30px;}
+	#contact a{margin-top:30px !important;}
+    .modules h3{font-size:20px;}
+    .modules .col-sm-12 .pull-right{border-bottom:dotted 1px #333;overflow: hidden;padding-bottom:30px;float:none !important}
+	h5{font-size:24px;}
+	h6{font-size:20px;}
+	.rm30{margin-top:30px}
+	.social{float:none}
+	.carousel img{margin-left:0px}
+	.stinfo{float:none;text-align:center;margin-left:0px}
+	.info{padding:0px}
+	.info p{padding:15px;text-align:center}
+    #one,#two,#three{height:auto !important}
+    .mdl-content{margin-top:40%}
+    #copyright{font-size:14px;}
+    #fst p{padding:0px}
+    #scd,#fst{height: auto}
+    .nav-tabs > li{padding:0px}
+	#career h2 span{display:block}
+    .mobile-hide{display:none}
+    .corporate br{display:none}
+    .why-ait-card{width: 33.33%;}
+    .mobile-text-center{text-align: center;}
+    #contact .contact-items span{margin-left: -105px;}
+    #contact .contact-items .icon-text a{margin: 0 auto !important;}
+    #contact .mail span{margin-left: -82px;}
+    #contact .map span{margin-left: -33px;}
+    #contact .map .icon-text{width: 267px;margin-top: 12px;}
+
+}
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    /* .m-2-seven{height:138px}    */
+    #events .thumbnail{min-height:220px}
+    #fst p{padding:0px}
+    .ct-first,.ct-second{min-height: 340px !important}
+}
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    /* .m-2-seven{height:172px}    */
+    #events .thumbnail{min-height:250px}
+    .ct-first,.ct-second{min-height: 300px !important}
+}
+@media only screen and (min-width:1200px) 
+{
+    .ct-first,.ct-second{min-height: 300px !important}
+}
